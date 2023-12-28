@@ -1,0 +1,528 @@
+html {
+    background-color: #202020;
+    font-family: 'Poppins','sans-serif';
+}
+
+#head-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #202020;
+    z-index: 1000; 
+    
+}
+
+body {
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* Le logo "Connect Elec 17" */
+
+#logo {
+    width: 50%;
+    height: 50%;
+    margin-left: 15px;
+}
+
+/* L'index en haut à droite des pages */
+
+.Index {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Index a {
+    color: white;
+    text-decoration: none;
+    font-size: 125%;
+    margin-right: 5px;
+}
+
+.Index a:hover {
+    color: gray;
+}
+
+#contact {
+    color: #eaac00;
+}
+
+#contact:hover {
+    color: gray;
+}
+
+/* "VOTRE ELECTRICIEN" */
+
+#slog {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13%;
+    margin-left: 45px;
+    font-size: 42px;
+    line-height: 200%;
+    letter-spacing: 4px;
+}
+
+#main1 {
+    margin-bottom: 0;
+}
+
+#main2 {
+    margin-top: 0;
+    color: #eaac00;
+}
+
+#elecreco{
+    position: absolute;
+    margin-left: 597px;
+    margin-top: -170px;
+}
+
+/* Mes travaux - Me Contacter */
+
+#container {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+
+#butt1, .butt2 {
+    border: 2px solid #eaac00;
+    width: 13%;
+    height: 13%;
+
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#butt1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#butt1:hover {
+    background-color: #eaac00;
+}
+
+.butt2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.butt2:hover {
+    background-color: #202020;
+}
+
+
+.butt2 {
+    border-color: #ea7700 ;
+    background-color: #ea7700;
+}
+
+/* Bannière 1 : Mes Services */
+
+#banner1 {
+    display: flex;
+    margin-top: 350px;
+    margin-left: -10px;
+    margin-bottom: 0;
+    background-color: black;
+    padding-left: 5px;
+    flex-direction: column;
+    width: 1860px;
+    
+
+}
+#banner1 h1 {
+    margin-left: 700px;
+    margin-bottom: 100px;
+    
+}
+#banner1 h1 .highlighted-word {
+    color: #eaac00; /* Couleur du texte que vous souhaitez */
+  }
+#liste1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+
+#paragraphe{
+    display: flex;
+    flex-direction: column;
+    margin-left: 175px;
+}
+
+#paragraphe p{
+    margin-top: 30px;
+    width: 30%
+}
+#paragraphe strong{
+    color: #eaac00;
+}
+#liste_service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 35%;
+    margin-right: 200px;
+}
+#liste_service h3{
+    margin-right: 100px;
+}
+#reno{
+    color: #ea7700;
+}
+#auto{
+    color: #ea7700;
+}
+#install{
+    color: #ea7700;
+}
+#secu{
+    color: #ea7700;
+}
+#repa{
+    color: #ea7700;
+}
+#banner1 .butt2{
+    width: 20%;
+    margin-left: 720px;
+    margin-bottom: 20px;
+}
+
+/*Bannière 2 - Mes derniers Travaux*/
+#banner2 {
+    margin-left: -10px;
+    margin-top: 0;
+
+    padding-bottom: 10px;
+    background-color: white;
+    color: black;
+    width: 1866px;
+}
+#banner2 h1{
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 730px;
+    margin-bottom: 100px;
+    
+}
+#banner2 h1 .highlighted-word {
+    color: #ea7700; /* Couleur du texte que vous souhaitez */
+  }
+#banner2 img{
+    width: 60%;
+    height: auto;
+
+
+}
+#groupe_image{
+    display: flex;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+
+.img_leg{
+    flex-direction: row;
+}
+
+.img_leg img{
+    margin-right: 20px;
+    border: 10px,solid,black;
+    box-shadow: 0 4px 12px rgb(0, 0, 0); /* Ajouter une ombre à l'image */
+}
+
+#banner2 .butt2{
+    width: 20%;
+    margin-left: 720px;
+    border-color: #eaac00 ;
+    background-color: #eaac00;
+}
+#banner2 .butt2:hover {
+    background-color: #202020;
+}
+
+/* Bannière 3 : Avis des clients */
+
+#banner3 {
+    margin-top: 0;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    background-color: #eaac00;
+    width: 1866px;
+}
+
+#banner3 h1{
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 800px;
+    margin-bottom: 100px;   
+}
+
+#conteneur-avis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.avis{
+    background-color: white;
+    color: black;
+    width: 30%;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#banner3 .butt2{
+    width: 20%;
+    margin-left: 720px;
+    border-color: black ;
+    background-color: black;
+}
+
+#banner3 .butt2:hover {
+    background-color: #ea7700;
+}
+
+/* Footer */
+
+footer{
+    margin-left: -10px;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    background-color: white;
+    color: black;
+    width: 1866px;
+}
+footer h1{
+    padding-top: 30px;
+        margin-left: 750px;
+}
+#img_partenaires{
+    display: flex;
+}
+#img_partenaires img{
+    width: 10%;
+    height: 10%;
+    margin-left: 30px;
+}
+#LM2{
+    margin-top: 40px;
+}
+#LM4{
+    max-width: 5%;
+    max-height: 5%;
+    margin-top: 40px;
+}
+#LM5{
+    margin-top: 60px;
+}
+#LM6{
+    margin-top: 10px;
+}
+#LM7{
+    margin-top: 40px;
+}
+#LM9{
+    margin-top: 80px;
+}
+#fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1800px;
+    height: auto;}
+
+#fin div{
+    margin-left: 20px;
+    width:300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Ajout d'une transition pour une animation fluide */
+    
+
+}
+#fin img{
+    width:32px;
+    height:32px;
+    margin-right: 20px;
+    margin-top:18px;
+}
+#fin h2{
+    margin-right: 30px;
+}
+
+.groupe_image1 img{
+    width: 60%;
+    height: auto;
+
+
+}
+.groupe_image1{
+    display: flex;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+
+.img_leg{
+    flex-direction: row;
+}
+
+.img_leg img{
+    margin-right: 20px;
+    border: 10px,solid,black;
+    box-shadow: 0 4px 12px rgb(0, 0, 0); /* Ajouter une ombre à l'image */
+}
+
+#reno1{
+    box-shadow: 0 4px 12px rgb(255, 255, 255); /* Ajouter une ombre à l'image */
+}
+#reno2{
+    box-shadow: 0 4px 12px rgb(255, 255, 255); /* Ajouter une ombre à l'image */
+}
+#banner4 {
+    display: flex;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-bottom: 0;
+    background-color: black;
+    padding-left: 5px;
+    flex-direction: column;
+    width: 1860px;
+    padding-top: 10px;
+    
+
+}
+#banner4 h1 {
+    margin-left: 700px;
+    margin-bottom: 100px;
+    
+}
+#banner4 h1 .highlighted-word {
+    color: #eaac00; /* Couleur du texte que vous souhaitez */
+  }
+#footer_proj{
+    margin-top: -20px;
+}
+#banner1 #projH1-1{
+    margin-left: 580px;
+}
+#banner2 #projH1-2{
+    margin-left: 640px;
+}
+#banner3 #projH1-3{
+    margin-left: 650px;
+}
+#banner4 #projH1-4{
+    margin-left: 580px;
+}
+.groupe_image1 .img_leg{
+    margin-left: 140px;
+}
+#projimg{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -170px;
+}
+#banner1-1 {
+    display: flex;
+    margin-top: 190px;
+    margin-left: -10px;
+    margin-bottom: 0;
+    background-color: black;
+    padding-left: 5px;
+    flex-direction: column;
+    width: 1860px;
+    
+
+}
+#banner1-1 h1 {
+    margin-left: 700px;
+    margin-bottom: 100px;
+    
+}
+#banner1-1 h1 .highlighted-word {
+    color: #eaac00; /* Couleur du texte que vous souhaitez */
+  }
+
+#paragraphe1 {
+    display: flex;
+    margin-left: 60px;
+}
+
+#paragraphe1 p{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#banner1-1 #trouve{
+    margin-left: 760px;
+}
+form {
+    max-width: 1300px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #eaac00;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ea7700;
+}
+#frontpage
+{
+    display: flex;
+    padding-top: 100px;
+}
+#main22 {
+    margin-top: 0;
+    margin-left: 680px;
+    color: #eaac00;
+}
